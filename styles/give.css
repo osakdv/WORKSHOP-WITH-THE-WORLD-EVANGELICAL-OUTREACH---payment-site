@@ -1,0 +1,277 @@
+body {
+    background-color: #F8F3F3;
+}
+
+nav {
+    margin: 1.5em 1.5em 0 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+nav #main-logo {
+    font-weight: 700;
+
+}
+
+main.give-contribution {
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    padding-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.give-contribution section {
+    background-color: #fff;
+    width: 49.3%;
+    height: 100%;
+    padding: 2em 5em 2em 5em;
+    border-radius: 15px;
+}
+
+.give-c-left .g-c-left-content {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.give-c-left .g-c-left-content .top-about p {
+    font-size: .8rem;
+    width: 70%;
+}
+
+.give-c-left .g-c-left-content .top-about .goals-for-readers {
+    margin-top: 2em;
+}
+
+.goals-for-readers p {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.goals-for-readers .goals-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.goals-for-readers .goals-container h2 {
+    font-size: 3rem;
+    color: #DDDDDD;
+    line-height: 1.4em;
+}
+
+.goals-for-readers .goals-container #focus-text {
+    color: black;
+}
+
+.give-c-left .g-c-left-content .bottom-ministry-name {
+    margin-top: auto;
+}
+
+.give-c-left .g-c-left-content .bottom-ministry-name .ministry {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.bottom-ministry-name .ministry .m-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #DDDDDD;
+}
+
+.bottom-ministry-name .ministry p {
+    font-size: .85rem;
+}
+
+/*  */
+section.give-c-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.give-c-right p {
+    font-size: .85rem;
+}
+
+.give-c-right .initiate-giving-container {
+    margin-top: auto;
+}
+
+.give-c-right .initiate-giving-container h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.give-c-right .initiate-giving-container form {
+    margin-top: 2em;
+}
+
+.give-c-right .initiate-giving-container form .input-container {
+    padding: 2em;
+    border-radius: 8px;
+    border: 1px solid #D7D7D7;
+}
+
+.give-c-right .initiate-giving-container form input  {
+    border-radius: 8px;
+    border: 1px solid #D7D7D7;
+    outline: none;
+    height: 54px;
+    width: 100%;
+    font-size: .9rem;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.give-c-right .initiate-giving-container form .firs-last-name-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.give-c-right .initiate-giving-container form .firs-last-name-group input {
+    width: 48%;
+}
+
+.give-c-right .initiate-giving-container form .phone-number-group {
+    margin-top: .6em;
+}
+
+.give-c-right .initiate-giving-container form  .select-amount-to-give {
+    margin-top: 1.7em;
+}
+
+.select-amount-to-give span {
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.select-amount-to-give ul.amounts {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .8em;
+}
+
+.select-amount-to-give ul.amounts li {
+    height: 35px;
+    padding: 0 1em;
+    border-radius: 6px;
+    background: #F8F3F3;
+    font-size: .85rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.give-c-right .initiate-giving-container form .custom-amount-group {
+    margin-top: 1em;
+}
+
+.give-c-right .initiate-giving-container form .custom-amount-group .custom-input {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    width: 100%;
+    height: 54px;
+    border: 1px solid #D7D7D7;
+    overflow: hidden;
+}
+
+.give-c-right .initiate-giving-container form .custom-amount-group .custom-input input {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.custom-amount-group .custom-input input::placeholder {
+    color: black;
+}
+
+/*  */
+.give-c-right .initiate-giving-container form button#continue-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 1em;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        margin: .85em .85em 0 .85em;
+    }
+    
+    main.give-contribution {
+        height: auto;
+        width: 95%;
+        padding-top: 3em;
+    }
+
+    .give-contribution section {
+        width: 100%;
+        height: auto;
+        padding: 1.5em;
+    }
+
+    .give-c-left .g-c-left-content .top-about p {
+        font-size: .8rem;
+        width: 90%;
+    }
+
+    .goals-for-readers .goals-container h2 {
+        font-size: 2.3rem;
+    }
+
+    .give-c-left .g-c-left-content .bottom-ministry-name {
+        margin-top: 4em;
+    }
+
+    section.give-c-right {
+        margin-top: 2em;
+    }
+
+    .give-c-right .initiate-giving-container {
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .goals-for-readers .goals-container h2 {
+        font-size: 2rem;
+    }
+
+    .bottom-ministry-name .ministry .m-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .give-c-right .initiate-giving-container form .firs-last-name-group {
+        flex-direction: column;
+        gap: .6em;
+    }
+    
+    .give-c-right .initiate-giving-container form .firs-last-name-group input {
+        width: 100%;
+    }
+} 
